@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsHub</title>
+    <style>
+        .container {
+            display: flex;
+            table-layout: auto;
+        }
+        header {
+            background-color: #9f9c9c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #3c8fb6;
+            min-width: 160px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: rgb(9, 9, 9);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/cricket.jpg" width="50" height="50" alt="">
+        <h1>Welcome to SportsHub</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    
+    <h1 style="text-align: center;font-size: x-large; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic;">SPORTIFY</h1><br>
+    <p style="text-align: center;">The origins of cricket lie somewhere in the Dark Ages - probably after the Roman Empire, almost certainly before the Normans invaded England, and almost certainly somewhere in Northern Europe. All research concedes that the game derived from a very old, widespread and uncomplicated pastime by which one player served up an object, be it a small piece of wood or a ball, and another hit it with a suitably fashioned club.
+    How and when this club-ball game developed into one where the hitter defended a target against the thrower is simply not known. Nor is there any evidence as to when points were awarded dependent upon how far the hitter was able to despatch the missile; nor when helpers joined the two-player contest, thus beginning the evolution into a team game; nor when the defining concept of placing wickets at either end of the pitch was adopted.</p><br>
+    <a href="https://www.icc-cricket.com/">Click Here</a><br><br>
+    <form action="" method="">
+        <label style="text-align: center; font-size: x-large;" for="Details">REGRISTRATION</label><br><br>
+        <label for="fullname">Full Name</label>
+        <input type="text"><br><br>
+        <label for="email">Email</label>
+        <input type="text"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div class="container">
+        <h3>Top Five Players and their Rankings</h3>
+        <ol>
+            
+            <li>Virat Kohli</li>
+            <li>Rohit Sharma</li>
+            <li>Shubman Gill</li>
+            <li>Pat Cummins</li>
+            <li>Ben Stokes</li>
+        </ol><hr>
+        <table border="1">
+            <tr>
+                <td>Serial No</td>
+                <td>Players</td>
+                <td>Rankings</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Virat Kohli</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rohit Sharma</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shubman Gill</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Pat Cummins</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Ben Stokes</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </div>
+    
+    <img src="images/cricket.jpg" width="560" height="315" alt="cricketlogo">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Ko18SgceYX8?si=D2xdsuL93DF0Daki"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <audio controls>
+        <source src="audios/cricketaudio.mp3" type="audio/mpeg">
+    </audio>
+    <footer>
+        <p style="text-align: center;">2024 SPORTIFY. All rights reserved.</p>
+    </footer>
+</body>
+</html>

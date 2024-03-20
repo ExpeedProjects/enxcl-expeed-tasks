@@ -1,0 +1,129 @@
+header {
+  height: 50px;
+  width: 1600px;
+  display: flex;
+  background-color: lightblue;
+  margin: -20px -10px -10px -10px;
+  position: fixed;
+  padding-top: 20px;
+}
+header img {
+  margin-left: 10px;
+  width: 100px;
+  height: 40px;
+}
+.menu {
+  margin-left: 1100px;
+}
+a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+a:link {
+  color: green;
+}
+a:hover {
+  color: mediumvioletred;
+}
+a:active {
+  color: yellow;
+}
+body {
+  overflow-x: hidden;
+}
+.inner-contents h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: blue;
+  padding-top: 50px;
+}
+.inner-contents p {
+  text-align: justify;
+  line-height: 150%;
+  padding: 10px 30px 10px 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  border-style: solid;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.inner-contents img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: -15px;
+  margin-right: 20px;
+}
+.inner-position img {
+  width: 500px;
+  height: 250px;
+  margin-left: 50px;
+  border: 3px solid #73ad21;
+}
+.outer-position img {
+  width: 500px;
+  height: 250px;
+  margin-left: 150px;
+  margin-top: -150px;
+  border: 3px solid #73ad21;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 170px;
+  padding-top: 50px;
+}
+.grid-item img {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+}
+footer {
+  background-color: lightskyblue;
+  height: 40px;
+  width: 1600px;
+  margin-left: -20px;
+  margin-bottom: -20px;
+  margin-top: -20px;
+}
+footer p {
+  margin-left: 300px;
+  font-size: medium;
+  padding-left: 40px;
+  color: black;
+  padding-top: 10px;
+  padding-left: 350px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 200px;
+}
+.flex-container h1 {
+  padding-left: 700px;
+  text-transform: uppercase;
+  color: blue;
+}
+.flex-item img {
+  width: 150px;
+  height: 150px;
+  margin: 100px 10px 10px -580px;
+  display: inline- flex;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgray;
+  }
+}

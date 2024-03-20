@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <form>
+      <h1>Student Information</h1>
+      <p> Please Enter The Student Details</p>
+      <label for="fullname">Full Name:</label><br><hr>
+        <input type="text"><br><br>
+        
+        <label for="address">Address:</label><br><hr>
+        <textarea rows="4" cols="50" required></textarea><br><br>
+
+
+        <label for="Gender">Gender:</label><br><hr>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        
+        <label for="city">City:</label><br><hr>
+        <input type="text"><br><br>
+
+        <label for="email">Email:</label><br><hr>
+        <input type="text"><br><br>
+
+        <label for="phone">Phone:</label><br><hr>
+        <input type="text"><br><br>
+        
+        <label for="state">State:</label><br><hr>
+        <select name="state">
+            <option value="">Select</option>
+            <option value="1">Kerala</option>
+            <option value="2">Karnataka</option>
+        </select><br><br>
+        
+        <label for="zip">Zip Code:</label><br><hr>
+        <input type="text"><br><br>
+        
+        <label for="country">Country:</label><br><hr>
+        <select name="country">
+            <option value="">Select</option>
+            <option value="1">India</option>
+            <option value="2">USA</option>
+        </select><br><br>
+              <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

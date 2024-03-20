@@ -1,0 +1,58 @@
+header {
+  float: left;
+  margin-left: 20px;
+  width: 2000px;
+  height: 50px;
+  display: flex;
+}
+.menu {
+  margin-left: 800px;
+  padding-left: 30px;
+}
+a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 100px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.second p {
+  padding: 5px 250px 10px 250px;
+  font-weight: bold;
+  text-align: justify;
+}
+.core h1 {
+  text-align: center;
+}
+h2 {
+  padding-top: 10px;
+  padding-left: 250px;
+  color: yellow;
+}
+main img {
+  margin-top: 10px;
+  width: 1600px;
+  height: 500px;
+}
+.cardimg img {
+  width: 400px;
+  height: 400px;
+  padding-left: 500px;
+}
+footer {
+  background-color: orange;
+  height: 50px;
+  width: 1600px;
+  margin-left: -20px;
+}
+footer p {
+  margin-left: 300px;
+  font-size: medium;
+  padding-left: 40px;
+  color: black;
+  padding-top: 20px;
+}
+body {
+  overflow-x: hidden;
+}
